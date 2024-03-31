@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+
+}
+.title{
+  text-align: center;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ContactItem{
+  border:1px solid lightgray;
+  border-radius: 20px;
+  margin-top:10px !important;
+}
+
+.FormName,.FormPhone{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+label{
+  text-align: left;
+}
+.none{
+  display:none;
+}
+.itemDiv{
+  display: flex;
+}
+.delBtn{
+  border-radius: 20px;
+  background-color: blue;
+  color:white
+}
