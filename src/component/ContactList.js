@@ -33,7 +33,7 @@ dispatch(delBtn(name))
     </div>
     <div className={!open?'none':''}>
     {search.map((item)=>(
- <ContactItem name={item?.name} number={item?.phoneNum} />
+ <ContactItem name={item?.name} number={item?.phoneNum}  />
      ))}
     </div>
     </div>

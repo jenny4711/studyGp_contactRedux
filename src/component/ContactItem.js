@@ -17,7 +17,7 @@ const ContactItem = ({name,number,onPress}) => {
     <Col className='info' lg={10}>
     <div>{name}</div>
     <div>{number}</div>
- <button className='delBtn' onClick={onPress}>Delete</button>
+ <button className={!onPress?"none":'delBtn'} onClick={onPress}>Delete</button>
     </Col>  
     
     </Row>
